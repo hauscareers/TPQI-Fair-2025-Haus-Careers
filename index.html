@@ -37,7 +37,7 @@
     font-size: 16px; /* ลดขนาดฟอนต์ */
     border: none;
     background: #cfcccc;
-    color: white;
+    color: black;
     cursor: pointer;
     border-radius: 5px;
         }
@@ -538,13 +538,6 @@
            
     // แสดงผลชื่อสาขา
     document.getElementById("career-result").innerText = majorRecommendation;
-
-    // เส้นคั่นระหว่างชื่อสาขากับอาชีพ
-    document.getElementById("divider").style.display = "block";
-
-    // แสดงผลรูปภาพด้านบนของอาชีพ
-    document.getElementById("career-image").src = careerImage;
-    document.getElementById("career-image").style.display = "block";
 
     // แสดงผลอาชีพและทักษะที่เกี่ยวข้อง
     document.getElementById("result-skills").innerHTML = career + "<br><br>" + skills;
