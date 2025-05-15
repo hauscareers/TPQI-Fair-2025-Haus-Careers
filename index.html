@@ -424,7 +424,7 @@
   }
         ];
         let currentQuestion = 0;
-        let totalScore = [0, 0, 0, 0, 0, 0, 0, 0];  // Scores for FTH, PRS, INN, SCI, ANL, INV, ENT, SUP
+        let totalScore = [0, 0, 0, 0, 0, 0, 0, 0];  // Scores for PR, ADV, MD, JNM, SPC, PA, FSP, CM
 
         function startTest() {
             document.getElementById("intro-page").style.display = "none";
@@ -471,7 +471,6 @@
     let majorImage = ""; // รูปด้านบนชื่อสาขา
     let careerImage = ""; // รูปด้านบนอาชีพที่เกี่ยวข้อง
     let flowerName = ""; // ชื่อดอกไม้
-
     switch (maxScoreIndex) {
             case 0: 
             majorRecommendation = "คุณเหมาะกับสาขา การประชาสัมพันธ์ (Public Relations: PR)";
